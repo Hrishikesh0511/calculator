@@ -1,0 +1,58 @@
+:root {
+  font-family: "Lato";
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #e9e9e9;
+}
+.mainbox {
+  color: grey;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid;
+  border: hidden;
+  border-radius: 35px;
+  width: 300px;
+  padding: 20px 30px 30px 30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.resultbox {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  border: 1px solid;
+  height: 55px;
+  border-radius: 30px;
+  border: hidden;
+  margin: 20px;
+  /* padding: 5px; */
+  padding: 5px 20px 5px 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.grids {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.smallbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 5px;
+  border-radius: 27.5px;
+  width: 55px;
+  height: 55px;
+  cursor: pointer;
+  border: hidden;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.functions {
+  color: rgb(255, 106, 0);
+  font-weight: 400;
+}
